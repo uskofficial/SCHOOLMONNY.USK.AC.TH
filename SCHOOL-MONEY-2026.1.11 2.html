@@ -1,0 +1,339 @@
+<!DOCTYPE html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SCHOOL MONEY | โรงเรียนอุทยานศึกษากระบี่</title>
+<link rel="icon" href="https://i.postimg.cc/FzPbqZ7n/IMG-7790.png"><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>:root{--footer-dark:rgba(18,40,99,.92)}*{box-sizing:border-box}body{margin:0;color:#172554;font-family:Kanit,sans-serif;background:linear-gradient(135deg,#fbc2eb,#a6c1ee);min-height:100vh}button,input,select{font:inherit}button{cursor:pointer;border:0;border-radius:12px;padding:12px 20px;background:#1e3a8a;color:white}button:hover{filter:brightness(1.12)}button:disabled{opacity:.5;cursor:wait}button:focus-visible,a:focus-visible{outline:3px solid #ec4899;outline-offset:4px}[hidden]{display:none!important}.container{max-width:1300px;margin:24px auto;padding:32px;background:#ffffffad;border:1px solid white;border-radius:25px}.header{display:flex;align-items:center;gap:22px}.header img{width:105px;height:105px;object-fit:contain}h1{font-size:32px;margin:0}p{line-height:1.7}.header p{margin:6px 0}.section{margin:34px 0;padding:26px;background:#ffffffbd;border-radius:20px;border:1px solid white}.row{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}h2{font-size:23px;margin:0 0 10px}.muted{color:#52617b;font-size:14px}.secondary{background:#e8edfa;color:#1e3a8a}.pink{background:#be185d}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:22px}.card{padding:20px;background:#f4f7ff;border:1px solid #c8d5ee;border-radius:16px}.card button{width:100%;text-align:left}.card .actions{display:flex;gap:8px;margin-top:10px}.card .actions button{font-size:14px;padding:8px;text-align:center}.legal{display:flex;gap:10px;flex-wrap:wrap}.legal button{background:transparent;color:#1e3a8a;padding:8px}.status{min-height:24px}dialog{border:0;border-radius:22px;max-width:560px;width:calc(100% - 28px);padding:26px;color:#172554;max-height:90dvh;overflow:auto}dialog::backdrop{background:#0f172a99;backdrop-filter:blur(5px)}dialog.large{max-width:900px}label{display:block;margin:14px 0 5px}input,select{width:100%;padding:12px;border:1px solid #bac8df;border-radius:10px;background:white}form .row{margin-top:20px}.error{color:#a51c30;white-space:pre-wrap}#viewer{position:fixed;inset:0;background:white;z-index:100;display:flex;flex-direction:column;height:100dvh}#viewer header{padding:10px 16px;background:#172554;color:white;display:flex;gap:16px;align-items:center;flex-wrap:wrap}#viewer iframe{width:100%;flex:1;border:0;background:white}#frameHelp{margin:0;padding:7px 16px;background:#eef2ff;font-size:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}.policy-container{color:#333}.policy-container h3{color:#1e3a8a}        .master-footer {
+            background-color: var(--footer-dark);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            color: white; padding: 40px 30px 15px; margin-top: 40px;
+            border-radius: 25px; 
+            position: relative;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .footer-layout { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px;
+        }
+
+        .f-left { display: flex; flex-direction: column; gap: 15px;
+        }
+        .f-logo-wrap { margin-bottom: 10px;
+        }
+        .f-logo-wrap img { width: 140px; height: auto; border-radius: 15px; background: white;
+            padding: 5px; } 
+        
+        .f-motto { font-size: 16px;
+            font-weight: 500; line-height: 1.6; }
+        .f-motto span { display: block; font-weight: 300;
+            font-size: 14px; color: #f0f0f0; margin-top: 5px;}
+
+        .f-title-line { 
+            font-size: 26px;
+            font-weight: 600; margin-top: 15px;
+            border-bottom: 3px solid rgba(0, 170, 255, 0.8); width: fit-content; padding-bottom: 5px;
+        }
+
+        .f-contact-list { display: flex; flex-direction: column; gap: 12px; margin-top: 15px;
+        }
+        .f-contact-item { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: #e0e0e0;
+            text-decoration: none; font-weight: 400;}
+        .f-contact-item i { margin-top: 4px; font-size: 16px; color: white;
+            width: 20px; text-align: center; }
+        .f-contact-item:hover { color: #00aaff;
+        }
+
+        .f-right { display: flex; flex-direction: column; align-items: flex-end;
+        }
+        .f-follow-head { 
+            font-size: 26px;
+            font-weight: 600; margin-bottom: 15px;
+            border-bottom: 3px solid rgba(236, 72, 153, 0.8); width: fit-content; padding-bottom: 5px;
+        }
+        .f-social-grid { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; width: 100%;
+        }
+        .f-social-link { 
+            display: flex;
+            align-items: center; justify-content: flex-end; gap: 12px;
+            text-decoration: none; color: white; font-size: 15px; font-weight: 400; transition: 0.2s;
+        }
+        .f-social-link i { font-size: 22px;
+        }
+        .f-social-link:hover { color: #ec4899;
+        }
+
+        .f-qr-wrap { margin-top: 40px; text-align: right;
+        }
+        .f-qr-wrap img { width: 110px; padding: 5px; background: rgba(255,255,255,0.95); border-radius: 12px;
+        }
+        .f-qr-wrap p { margin: 10px 0 0; font-size: 16px; font-weight: 500;
+        }
+        .f-qr-wrap a { color: white; text-decoration: none; border-bottom: 1px solid white;
+            font-weight: 600; }
+
+        .f-bottom-bar {
+            margin-top: 50px;
+            border-top: 1px solid rgba(255,255,255,0.2); padding-top: 20px;
+            display: flex; justify-content: space-between; font-size: 11px; color: rgba(255,255,255,0.7);
+        }
+
+        @media (max-width: 650px) {
+            .footer-layout { grid-template-columns: 1fr;
+            gap: 50px; }
+            .f-right { align-items: center; text-align: center;
+            }
+            .f-social-grid { align-items: center;
+            }
+            .f-social-link { justify-content: center; width: 100%;
+            }
+            .f-bottom-bar { flex-direction: column; align-items: center; gap: 15px;
+            text-align: center; }
+            .f-qr-wrap { text-align: center;
+            }
+        }
+
+@media(max-width:650px){.container{margin:10px;padding:18px}.header{gap:12px}.header img{width:72px;height:72px}h1{font-size:23px}.header p{font-size:14px}.section{padding:18px}.master-footer{padding:26px 18px}.cards{grid-template-columns:1fr}}
+.version-admin{display:flex;flex-direction:column;align-items:flex-start;gap:10px}.version-admin button{font-size:14px;padding:9px 15px}</style></head><body><div class="container" id="home"><header class="header"><img src="https://i.postimg.cc/FzPbqZ7n/IMG-7790.png" alt="โลโก้โรงเรียนอุทยานศึกษากระบี่"><div><h1>SCHOOL MONEY</h1><p>ระบบแจ้งจ่ายค่าใช้จ่ายโรงเรียนอุทยานศึกษากระบี่</p></div></header>
+<main class="section"><div class="row"><div><h2>ภาคเรียนและปีการศึกษา</h2><span class="muted">เลือกภาคเรียนที่ต้องการเข้าใช้งาน</span></div></div><div id="adminTools" hidden><p id="account"></p><div class="row"><button id="addBtn" class="pink">＋ เพิ่มภาคเรียน / ปีการศึกษา</button><button id="logoutBtn" class="secondary">ออกจากระบบ</button></div></div><p id="status" class="status" role="status">กำลังโหลดปีการศึกษา…</p><div id="cards" class="cards"></div></main>
+<div class="row"><div class="version-admin"><span class="muted">Version 2026.1.11</span><button id="adminBtn" class="secondary">เข้าสู่ระบบแอดมิน</button></div><div class="legal"><button data-policy="0">นโยบายความเป็นส่วนตัว</button><button data-policy="1">เงื่อนไขการใช้งาน</button></div></div>    <div class="master-footer">
+        <div class="footer-layout">
+        
+            <div class="f-left">
+                <div class="f-logo-wrap">
+                    <img src="https://i.postimg.cc/G208V1G9/U.jpg" alt="School Logo">
+            
+    </div>
+                <p class="f-motto">
+                    ศิษย์เราเขาคือลูก
+                    <span>เรียนดี ประพฤติเด่น เน้นคุณภาพ ซึมซาบคุณธรรม ผูกสัมพันธ์ชุมชน</span>
+                </p>
+            
+       
+          <div class="f-title-line">ติดต่อ</div>
+                 <div class="f-contact-list">
+                    <a href="https://maps.app.goo.gl/Gv2vPXCYMfkeSFVU6" class="f-contact-item" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-home"></i> 
+                     
+   โรงเรียนอุทยานศึกษากระบี่ เลขที่ 114/1 
+                        หมู่ 2 ตำบลคลองเขม้า อำเภอเหนือคลอง จังหวัดกระบี่ 81130
+                    </a>
+                    <a href="tel:0935377270" class="f-contact-item"><i class="fas fa-phone"></i> 093-537-7270</a>
+                    
+<a href="tel:0935377270" class="f-contact-item"><i class="fas fa-fax"></i> 093-537-7270</a>
+                    <a href="mailto:uskofficial01@gmail.com" class="f-contact-item"><i class="fas fa-envelope"></i> 
+                        uskofficial01@gmail.com</a>
+                </div>
+             </div>
+
+            <div class="f-right">
+    
+            <div class="f-follow-head">ติดตาม</div>
+                <div class="f-social-grid">
+                    <a href="https://www.facebook.com/UttayanSuksaKrabi" class="f-social-link" target="_blank" rel="noopener noreferrer">โรงเรียนอุทยานศึกษากระบี่ <i class="fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/USKOfficial1" class="f-social-link" target="_blank" rel="noopener noreferrer">คณะกรรมการสภานักเรียนโรงเรียนอุทยานศึกษากระบี่ <i class="fab fa-facebook"></i></a>
+                  
+  
+                    <a href="https://www.tiktok.com/@uskofficial_?_r=1&_t=ZS-96IJfkyKHJJ" class="f-social-link" target="_blank" rel="noopener noreferrer">uskofficial_ <i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/uskofficial_?igsh=MTM2amx5bmpiNGdjdA==" class="f-social-link" target="_blank" rel="noopener noreferrer">uskofficial_ <i class="fab fa-instagram"></i></a>
+                    <a href="https://lin.ee/7F62GMA" class="f-social-link" target="_blank" rel="noopener noreferrer">@837fnedn <i class="fab fa-line"></i></a>
+                    
+<a href="https://youtube.com/@uskofficial01?si=qLXB83PoYvydWuBY" class="f-social-link" target="_blank" rel="noopener noreferrer">uskofficial01 <i class="fab fa-youtube"></i></a>
+                </div>
+       
+                <div class="f-qr-wrap">
+                    <img src="https://i.postimg.cc/5N778H5g/Untitled-design.png" alt="QR Apply">
+                    <p>สมัครเรียน <a href="https://usk.ac.th" target="_blank" rel="noopener noreferrer">https://usk.ac.th/</a></p>
+        
+        </div>
+            </div>
+        </div>
+
+        <div class="f-bottom-bar">
+            <span>© 2026 COPYRIGHT : UTTAYANSUKSAKRABI SCHOOL .
+All right reserved</span>
+            <span>ผลิตสื่อโดย: โรงเรียนอุทยานศึกษากระบี่ เลขที่ 114/1 หมู่ 2 ตำบลคลองเขม้า อำเภอเหนือคลอง จังหวัดกระบี่ 81130 จำนวน 1 ชุด ตามเวลาที่ปรากฎ ที่ส่งมาในครั้งนี้</span>
+        </div>
+    </div>
+</div>
+<section id="viewer" hidden aria-label="เว็บไซต์ปีการศึกษา"><header><button id="backBtn" class="secondary">← กลับหน้าเริ่มต้น</button><strong id="viewerTitle"></strong><button id="reloadBtn" class="secondary">โหลดใหม่</button></header><p id="frameHelp">หากไม่แสดงหน้าเว็บไซต์ กรุณาติดต่อโรงเรียนเพื่อให้เว็บไซต์ปลายทางอนุญาตการแสดงผลในหน้านี้</p><iframe id="frame" title="ระบบภาคเรียนที่เลือก" sandbox="allow-scripts allow-same-origin allow-forms allow-downloads allow-modals" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe></section>
+<dialog id="loginDialog"><div class="row"><h2>เข้าสู่ระบบแอดมิน</h2><button data-close class="secondary" aria-label="ปิด">✕</button></div><form id="loginForm"><label for="email">อีเมล</label><input id="email" type="email" autocomplete="username" required><label for="password">รหัสผ่าน</label><input id="password" type="password" autocomplete="current-password" required><p id="loginError" class="error" role="alert"></p><button id="loginSubmit">เข้าสู่ระบบ</button></form></dialog>
+<dialog id="editDialog"><div class="row"><h2 id="editTitle">เพิ่มปีการศึกษา</h2><button data-close class="secondary" aria-label="ปิด">✕</button></div><form id="editForm"><label for="year">ปีการศึกษา (พ.ศ.)</label><input id="year" type="number" min="2500" max="2800" required><label for="semester">ภาคเรียน</label><select id="semester"><option value="1">ภาคเรียนที่ 1</option><option value="2">ภาคเรียนที่ 2</option><option value="3">ภาคฤดูร้อน</option></select><label for="url">ลิงก์เว็บไซต์ (https://)</label><input id="url" type="url" required maxlength="2048" placeholder="https://…"><p class="muted">เว็บไซต์ต้องอนุญาตให้ฝังใน iframe และไม่ใช่ลิงก์ของหน้าหลักนี้</p><p id="editError" class="error" role="alert"></p><button id="saveBtn">บันทึก</button></form></dialog>
+<dialog id="policyDialog" class="large"><button data-close class="secondary">ปิด</button><div id="policyContent"></div></dialog>
+
+<template id="policy0">
+    
+            <div class="policy-container">
+                    <div style="text-align:center; margin-bottom: 25px;">
+                        <i class="fas fa-shield" style="font-size: 60px; color: #1e3a8a; background: #eff6ff; padding: 30px; border-radius: 50%;"></i>
+                    </div>
+        
+            <h2>ประกาศนโยบายคุ้มครองข้อมูลส่วนบุคคล<br><span style="font-size: 18px; color: #555; font-weight: 500;">(Privacy Policy)</span></h2>
+                    <p style="text-align: center; color: #666; margin-bottom: 30px; font-size: 14px;"><strong>โรงเรียนอุทยานศึกษากระบี่</strong><br>ประกาศ ณ วันที่ 30 พฤษภาคม พ.ศ. 2569</p>
+                    <p>โรงเรียนอุทยานศึกษากระบี่ ("โรงเรียน") ในฐานะผู้ควบคุมข้อมูลส่วนบุคคล ตระหนักถึงความสำคัญในการคุ้มครองข้อมูลส่วนบุคคลของนักเรียน ผู้ปกครอง ครู และบุคลากรที่เกี่ยวข้อง ซึ่งถือเป็นส่วนหนึ่งของการดำเนินงานที่มีประสิทธิภาพตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ.
+2562 (PDPA) ทางโรงเรียนจึงจัดทำนโยบายฉบับนี้ขึ้นเพื่อชี้แจงกระบวนการจัดการข้อมูลผ่านระบบ School Money (<a href="https://uskofficial.github.io/SCHOOLMONNY.USK/" target="_blank">https://uskofficial.github.io/SCHOOLMONNY.USK/</a>)</p>
+
+                    <h3>1.
+วัตถุประสงค์แห่งการจัดเก็บข้อมูลส่วนบุคคล</h3>
+                    <p>โรงเรียนมีความจำเป็นต้องเก็บรวบรวมข้อมูลส่วนบุคคลของท่าน เพื่อวัตถุประสงค์อันชอบด้วยกฎหมาย ดังนี้:</p>
+                    <ul>
+                        <li><b>1.1 เพื่อการบริหารจัดการสถานะการชำระเงิน:</b> เพื่อใช้ในการระบุตัวตนของนักเรียนสำหรับการสืบค้นสถานะค่าธรรมเนียมหอพักและค่าอาหารรายเดือน</li>
+                        <li><b>1.2 เพื่อการยืนยันและตรวจสอบหลักฐาน:</b> เพื่อตรวจสอบความถูกต้องของสลิปการโอนเงินและบันทึกรายการในระบบบัญชีของโรงเรียนให้เป็นปัจจุบัน</li>
+      
+                  <li><b>1.3 เพื่อการสื่อสารและประสานงาน:</b> เพื่อใช้เป็นข้อมูลติดต่อในกรณีที่มีความผิดพลาดของการชำระเงินหรือการขออนุมัติรายการเพิ่มเติม</li>
+                        <li><b>1.4 เพื่อความปลอดภัยของระบบ:</b> เพื่อบันทึกข้อมูลทางเทคนิค (Log File) ในการเฝ้าระวัง ป้องกัน และแก้ไขปัญหาการบุกรุกระบบโดยมิชอบ</li>
+                    </ul>
+
+                    <h3>2.
+ประเภทของข้อมูลที่จัดเก็บ</h3>
+                    <p>โรงเรียนจัดเก็บข้อมูลส่วนบุคคลเท่าที่จำเป็นตามภารกิจของสถานศึกษา ดังนี้:</p>
+                    <ul>
+                        <li><b>ข้อมูลระบุตัวตน:</b> ชื่อ-นามสกุล ของนักเรียน</li>
+                        <li><b>ข้อมูลธุรกรรมทางการเงิน:</b> รายละเอียดการโอนเงิน วันเวลาที่ชำระ และข้อมูลในเอกสารหลักฐานการโอนเงิน (สลิป) ที่ท่านอัปโหลดผ่านระบบ</li>
+    
+                    <li><b>ข้อมูลทางเทคนิค (Technical Data):</b> ที่อยู่ไอพี (IP Address), คุกกี้ (Cookies) เพื่ออำนวยความสะดวกในการเข้าใช้งานระบบ</li>
+                    </ul>
+
+                    <h3>3.
+หลักเกณฑ์และมาตรการในการคุ้มครองข้อมูล</h3>
+                    <p>โรงเรียนถือปฏิบัติโดยยึดมั่นในมาตรการรักษาความปลอดภัยที่เข้มงวด ดังนี้:</p>
+                    <ul>
+                        <li><b>3.1 การจำกัดสิทธิ์การเข้าถึง (Access Control):</b> ข้อมูลจะถูกเข้าถึงได้โดยบุคลากรผู้ได้รับมอบหมายจากโรงเรียนเท่านั้น เพื่อการปฏิบัติหน้าที่ที่เกี่ยวข้องกับระบบการเงินของโรงเรียน</li>
+                        <li><b>3.2 มาตรการทางเทคนิค:</b> โรงเรียนใช้ระบบรักษาความปลอดภัยในเครือข่าย เพื่อป้องกันการเข้าถึงข้อมูลโดยมิชอบ หรือการรั่วไหลของข้อมูลสู่สาธารณะ</li>
+  
+                      <li><b>3.3 การรักษาความลับ:</b> บุคลากรทุกคนที่เกี่ยวข้องกับการประมวลผลข้อมูลส่วนบุคคลมีหน้าที่ตามกฎหมายในการรักษาความลับของข้อมูลที่ได้รับทราบ</li>
+                    </ul>
+
+                    <h3>4.
+การเปิดเผยข้อมูลส่วนบุคคล</h3>
+                    <p>โรงเรียนจะไม่เปิดเผยหรือส่งต่อข้อมูลส่วนบุคคลของท่านไปยังบุคคลภายนอก เว้นแต่กรณีดังต่อไปนี้:</p>
+                    <ul>
+                        <li>เป็นการปฏิบัติตามกฎหมาย หรือคำสั่งของศาลหรือพนักงานเจ้าหน้าที่ตามอำนาจหน้าที่</li>
+                        <li>เป็นการเปิดเผยแก่หน่วยงานรัฐเพื่อตรวจสอบงบประมาณหรือภารกิจตามที่กฎหมายกำหนด</li>
+          
+              <li>ท่านได้ให้ความยินยอมโดยชัดแจ้งในการดำเนินการดังกล่าว</li>
+                    </ul>
+
+                    <h3>5.
+ระยะเวลาในการจัดเก็บข้อมูล</h3>
+                    <p>โรงเรียนจะจัดเก็บข้อมูลส่วนบุคคลของท่านไว้ตามระยะเวลาที่จำเป็น เพื่อให้บรรลุวัตถุประสงค์ในการดำเนินการทางการเงินและการศึกษาระหว่างปีการศึกษา เมื่อสิ้นสุดวัตถุประสงค์ หรือตามระยะเวลาที่กฎหมายบัญญัติไว้ โรงเรียนจะดำเนินการทำลายหรือทำให้ข้อมูลนั้นไม่สามารถระบุตัวบุคคลได้อีกต่อไป</p>
+
+                    <h3>6.
+สิทธิของเจ้าของข้อมูลส่วนบุคคล</h3>
+                    <p>ภายใต้บทบัญญัติแห่งกฎหมาย เจ้าของข้อมูลมีสิทธิดำเนินการดังนี้:</p>
+                    <ul>
+                        <li><b>สิทธิในการเข้าถึง:</b> ขอตรวจสอบและรับสำเนาข้อมูลส่วนบุคคลที่โรงเรียนจัดเก็บ</li>
+                        <li><b>สิทธิในการแก้ไข:</b> ขอปรับปรุงข้อมูลให้ถูกต้อง เป็นปัจจุบัน และครบถ้วน</li>
+       
+                 <li><b>สิทธิในการลบ:</b> ขอให้โรงเรียนดำเนินการลบข้อมูลในกรณีที่หมดความจำเป็นหรือถอนความยินยอม</li>
+                        <li><b>สิทธิในการคัดค้าน:</b> คัดค้านการประมวลผลข้อมูลในบางกรณีตามที่กฎหมายกำหนด</li>
+                    </ul>
+
+                    <h3>7.
+การเปลี่ยนแปลงนโยบายความเป็นส่วนตัว</h3>
+                    <p>โรงเรียนขอสงวนสิทธิ์ในการแก้ไขปรับปรุงนโยบายฉบับนี้ตามความเหมาะสมเพื่อให้สอดคล้องกับระเบียบราชการและการปฏิบัติงานจริง โดยท่านสามารถตรวจสอบการปรับปรุงล่าสุดได้ที่หน้าเว็บไซต์นี้</p>
+
+                    <h3>8.
+ข้อมูลติดต่อ</h3>
+                    <p>หากท่านมีคำถาม ข้อเสนอแนะ หรือความประสงค์ที่จะใช้สิทธิในฐานะเจ้าของข้อมูลส่วนบุคคล ท่านสามารถติดต่อเจ้าหน้าที่คุ้มครองข้อมูลส่วนบุคคลของโรงเรียนได้ที่:</p>
+                    <p style="background: #f8fafc; padding: 15px; border-radius: 12px; border-left: 5px solid #1e3a8a;">
+                        <b>ฝ่ายงานสารสนเทศ โรงเรียนอุทยานศึกษากระบี่</b><br>
+                      
+  สถานที่: 114/1 หมู่ 2 ต.คลองเขม้า อ.เหนือคลอง จ.กระบี่ 81130<br>
+                        อีเมล: <a href="mailto:uskofficial01@gmail.com">uskofficial01@gmail.com</a><br>
+                        โทรศัพท์: <a href="tel:0935377270">093-537-7270</a>
+                    </p>
+               </div>
+    
+        </template><template id="policy1">
+    
+            <div class="policy-container">
+                    <div style="text-align:center; margin-bottom: 25px;">
+                        <i class="fas fa-file-contract" style="font-size: 60px; color: #1e3a8a; background: #eff6ff; padding: 30px; border-radius: 50%;"></i>
+                    </div>
+        
+            <h2>เงื่อนไขและข้อตกลงการใช้งาน<br><span style="font-size: 18px; color: #555; font-weight: 500;">(Terms and Conditions)</span></h2>
+                    <p style="text-align: center; color: #666; margin-bottom: 30px; font-size: 14px;"><strong>ระบบ School Money – โรงเรียนอุทยานศึกษากระบี่</strong><br>มีผลบังคับใช้ตั้งแต่วันที่ 30 พฤษภาคม พ.ศ. 2569 เป็นต้นไป</p>
+                    <p>การที่ท่านเข้าใช้งานระบบ School Money (<a href="https://uskofficial.github.io/SCHOOLMONNY.USK/" target="_blank">https://uskofficial.github.io/SCHOOLMONNY.USK/</a>) ถือว่าท่านได้อ่าน ทำความเข้าใจ และตกลงที่จะปฏิบัติตามข้อกำหนดและเงื่อนไขดังต่อไปนี้:</p>
+
+               
+     <h3>1. การยอมรับเงื่อนไข</h3>
+                    <p>ผู้ใช้งานตกลงที่จะใช้บริการระบบนี้เพื่อวัตถุประสงค์ในการตรวจสอบสถานะการชำระเงินและจัดการค่าใช้จ่ายทางการศึกษาของนักเรียนในสังกัดโรงเรียนอุทยานศึกษากระบี่เท่านั้น ห้ามนำข้อมูลไปใช้ในทางที่ผิดกฎหมายหรือก่อให้เกิดความเสียหายแก่ทางโรงเรียน</p>
+
+                    <h3>2.
+ความถูกต้องของข้อมูล</h3>
+                    <ul>
+                        <li>ผู้ใช้งานมีหน้าที่รับผิดชอบในการระบุ "ชื่อ-นามสกุล" ของนักเรียนให้ถูกต้องตามที่ลงทะเบียนไว้กับทางโรงเรียน โดยไม่มีคำนำหน้าชื่อ เพื่อการค้นหาที่ถูกต้อง</li>
+                        <li>ท่านยืนยันว่าข้อมูลหลักฐานการโอนเงิน (สลิป) ที่อัปโหลดเข้าสู่ระบบ เป็นเอกสารที่ถูกต้องและเป็นจริง หากตรวจพบว่ามีการปลอมแปลงเอกสาร โรงเรียนขอสงวนสิทธิ์ในการดำเนินคดีตามกฎหมาย</li>
+                    </ul>
+
+   
+                 <h3>3.
+การทำธุรกรรมและการตรวจสอบ</h3>
+                    <ul>
+                        <li>การชำระเงินผ่านช่องทางที่โรงเรียนกำหนดถือเป็นความรับผิดชอบของผู้ใช้งาน</li>
+                        <li>ระบบแสดงสถานะ "ชำระแล้ว" เป็นข้อมูลเบื้องต้น ทางโรงเรียนขอสงวนสิทธิ์ในการตรวจสอบความถูกต้องของยอดเงินกับบัญชีธนาคารจริงอีกครั้งภายใน 7 วันทำการ</li>
+                        <li>หากเกิดข้อผิดพลาดในการทำรายการ ผู้ใช้งานมีหน้าที่ติดต่อเจ้าหน้าที่ของโรงเรียนโดยตรงตามช่องทางที่ระบุไว้ภายใน 7 
+วัน</li>
+                    </ul>
+
+                    <h3>4.
+ความรับผิดชอบของผู้ใช้งาน</h3>
+                    <ul>
+                        <li>ผู้ใช้งานต้องรักษาข้อมูลส่วนตัวของนักเรียนในการเข้าถึงระบบ และไม่เปิดเผยข้อมูลดังกล่าวให้ผู้อื่นนำไปใช้ในทางที่มิชอบ</li>
+                        <li>โรงเรียนไม่รับผิดชอบต่อความเสียหายใดๆ ที่เกิดจากการที่ผู้ใช้งานกรอกข้อมูลไม่ถูกต้อง หรือการกระทำที่เกิดจากความประมาทเลินเล่อของผู้ใช้งานเอง</li>
+                    </ul>
+
+         
+           <h3>5.
+สิทธิและการเปลี่ยนแปลงระบบ</h3>
+                    <ul>
+                        <li>โรงเรียนมีสิทธิ์ในการปรับปรุง พัฒนา หรือระงับการให้บริการระบบนี้ชั่วคราวหรือถาวร เพื่อการบำรุงรักษาหรือแก้ไขปัญหาทางเทคนิค โดยไม่ต้องแจ้งให้ทราบล่วงหน้า</li>
+                        <li>โรงเรียนขอสงวนสิทธิ์ในการแก้ไขเปลี่ยนแปลงเงื่อนไขการใช้งานนี้ตามความเหมาะสม โดยจะมีผลทันทีเมื่อประกาศผ่านทางหน้าเว็บไซต์</li>
+                    </ul>
+
+       
+             <h3>6.
+ทรัพย์สินทางปัญญา</h3>
+                    <p>เนื้อหา รูปภาพ สัญลักษณ์ และส่วนประกอบทั้งหมดในเว็บไซต์นี้ เป็นลิขสิทธิ์ของโรงเรียนอุทยานศึกษากระบี่ ห้ามมิให้ผู้ใดคัดลอก ทำซ้ำ หรือดัดแปลงเพื่อนำไปใช้โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร</p>
+
+                    <h3>7.
+กฎหมายที่ใช้บังคับ</h3>
+                    <p>เงื่อนไขการใช้งานฉบับนี้อยู่ภายใต้บังคับของกฎหมายแห่งราชอาณาจักรไทย และข้อพิพาทใดๆ ที่เกิดขึ้นจากการใช้งานเว็บไซต์นี้ จะต้องอยู่ภายใต้อำนาจการตัดสินของศาลในเขตพื้นที่จังหวัดกระบี่</p>
+                </div>
+            </template>
+<script>
+const $=id=>document.getElementById(id);
+document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>b.closest('dialog').close());
+document.querySelectorAll('[data-policy]').forEach(b=>b.onclick=()=>{$('policyContent').replaceChildren($('policy'+b.dataset.policy).content.cloneNode(true));$('policyDialog').showModal()});
+$('adminBtn').onclick=()=>$('loginDialog').showModal();
+function selectedId(){try{return sessionStorage.getItem('schoolMoneyTerm')}catch{return null}}
+function remember(id){try{id?sessionStorage.setItem('schoolMoneyTerm',id):sessionStorage.removeItem('schoolMoneyTerm')}catch{}}
+function validUrl(value){try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&u.origin+u.pathname!==location.origin+location.pathname}catch{return false}}
+function label(t){return (t.semester===3?'ภาคฤดูร้อน':'ภาคเรียนที่ '+t.semester)+' / ปีการศึกษา '+t.year}
+function openTerm(id,t){if(!validUrl(t.url))return;remember(id);$('viewerTitle').textContent=label(t);$('frame').src=t.url;$('viewer').hidden=false;$('home').hidden=true;document.body.style.overflow='hidden';$('backBtn').focus()}
+function goHome(){remember(null);$('frame').src='about:blank';$('viewer').hidden=true;$('home').hidden=false;document.body.style.overflow='';( $('adminBtn').hidden ? $('addBtn') : $('adminBtn') ).focus()}
+$('backBtn').onclick=goHome;$('reloadBtn').onclick=()=>{$('frame').src=$('frame').src};
+window.addEventListener('offline',()=>{$('status').textContent='ขาดการเชื่อมต่ออินเทอร์เน็ต กรุณาเชื่อมต่ออีกครั้ง'});
+</script><script type="module">
+try {
+const version='11.10.0';
+const [{initializeApp},{getAuth,onAuthStateChanged,signInWithEmailAndPassword,signOut,setPersistence,browserSessionPersistence},{getDatabase,ref,onValue,set,remove,serverTimestamp}]=await Promise.all(['app','auth','database'].map(n=>import(`https://www.gstatic.com/firebasejs/${version}/firebase-${n}.js`)));
+const app=initializeApp({apiKey:"AIzaSyCYzdTDDtasgznuTERAtFz4l_dk47eB42A",authDomain:"schoolmonnyusk.firebaseapp.com",databaseURL:"https://schoolmonnyusk-default-rtdb.asia-southeast1.firebasedatabase.app",projectId:"schoolmonnyusk",storageBucket:"schoolmonnyusk.firebasestorage.app",messagingSenderId:"1005787782841",appId:"1:1005787782841:web:46389eb63de7f65affc568",measurementId:"G-CD20BVG2R1"});
+// Analytics is intentionally not started: this landing page does not need visitor tracking.
+const auth=getAuth(app),db=getDatabase(app);let terms={},isAdmin=false,editing=null,restored=false;
+function message(e){return ({'auth/invalid-credential':'อีเมลหรือรหัสผ่านไม่ถูกต้อง','auth/too-many-requests':'ลองเข้าสู่ระบบหลายครั้งเกินไป กรุณารอสักครู่','auth/network-request-failed':'เชื่อมต่อไม่ได้ กรุณาตรวจสอบอินเทอร์เน็ต','auth/operation-not-allowed':'กรุณาเปิด Email/Password ใน Firebase ก่อน','PERMISSION_DENIED':'ไม่มีสิทธิ์ กรุณาตรวจสอบสิทธิ์แอดมินและ Database Rules'})[e.code]||'ทำรายการไม่สำเร็จ กรุณาตรวจสอบการเชื่อมต่อและการตั้งค่า Firebase'}
+function render(){const root=$('cards');root.replaceChildren();for(const [id,t] of Object.entries(terms).sort((a,b)=>b[1].year-a[1].year||b[1].semester-a[1].semester)){if(!validUrl(t.url))continue;const card=document.createElement('article');card.className='card';const b=document.createElement('button');b.textContent=label(t)+' →';b.onclick=()=>openTerm(id,t);card.append(b);if(isAdmin){const actions=document.createElement('div');actions.className='actions';const edit=document.createElement('button');edit.textContent='แก้ไข';edit.className='secondary';edit.onclick=()=>editor(id);const del=document.createElement('button');del.textContent='ลบ';del.className='secondary';del.onclick=async()=>{if(!isAdmin||!confirm('ลบ '+label(t)+' ออกจากรายการ?'))return;del.disabled=true;try{await remove(ref(db,'schoolPortal/terms/'+id));if(selectedId()===id)goHome()}catch(e){$('status').textContent=message(e);del.disabled=false}};actions.append(edit,del);card.append(actions)}root.append(card)}}
+onValue(ref(db,'schoolPortal/terms'),snap=>{terms=snap.val()||{};$('status').textContent=Object.keys(terms).length?'':'ยังไม่มีภาคเรียนที่เปิดให้บริการ';render();const id=selectedId();if(!restored){restored=true;if(id&&terms[id])openTerm(id,terms[id]);else remember(null)}else if(id&&!terms[id])goHome()},e=>{$('status').textContent='โหลดปีการศึกษาไม่ได้ กรุณาตรวจสอบอินเทอร์เน็ตหรือแจ้งผู้ดูแล ('+e.code+')'});
+function roleUI(){ $('adminTools').hidden=!isAdmin;$('adminBtn').hidden=isAdmin;if(!isAdmin)$('editDialog').close();render() }
+onAuthStateChanged(auth,user=>{
+  // Firebase Authentication is the sole source of administrator access.
+  isAdmin=Boolean(user);
+  roleUI();
+  $('account').textContent=user?'ผู้ดูแล: '+(user.email||user.uid):'';
+  if(user){$('loginDialog').close();$('password').value='';$('loginError').textContent=''}
+});
+$('loginForm').onsubmit=async e=>{e.preventDefault();$('loginSubmit').disabled=true;$('loginError').textContent='';try{await setPersistence(auth,browserSessionPersistence);await signInWithEmailAndPassword(auth,$('email').value.trim(),$('password').value)}catch(err){$('loginError').textContent=message(err)}finally{$('loginSubmit').disabled=false}};
+$('logoutBtn').onclick=async()=>{try{await signOut(auth)}catch(e){$('status').textContent=message(e)}};
+function editor(id=null){if(!isAdmin)return;editing=id;const t=terms[id];$('editTitle').textContent=id?'แก้ไขภาคเรียน / ปีการศึกษา':'เพิ่มภาคเรียน / ปีการศึกษา';$('year').value=t?.year||new Date().getFullYear()+543;$('semester').value=t?.semester||1;$('url').value=t?.url||'';$('editError').textContent='';$('editDialog').showModal()}
+$('addBtn').onclick=()=>editor();
+$('editForm').onsubmit=async e=>{e.preventDefault();if(!isAdmin)return;const year=Number($('year').value),semester=Number($('semester').value),url=$('url').value.trim();if(!Number.isInteger(year)||year<2500||year>2800||![1,2,3].includes(semester)||!validUrl(url)){$('editError').textContent='กรุณาตรวจสอบปีการศึกษาและใช้ลิงก์ HTTPS ที่ไม่ใช่หน้าหลักนี้';return}const duplicate=Object.entries(terms).some(([id,t])=>id!==editing&&t.year===year&&t.semester===semester);if(duplicate){$('editError').textContent='มีภาคเรียนและปีการศึกษานี้แล้ว กรุณาแก้ไขรายการเดิม';return}$('saveBtn').disabled=true;try{const id=editing||year+'-'+semester;await set(ref(db,'schoolPortal/terms/'+id),{year,semester,url,updatedAt:serverTimestamp()});$('editDialog').close()}catch(err){$('editError').textContent=message(err)}finally{$('saveBtn').disabled=false}};
+} catch(e){$('status').textContent='เชื่อมต่อ Firebase ไม่สำเร็จ กรุณาตรวจสอบอินเทอร์เน็ต แล้วรีเฟรชหน้า';$('loginForm').onsubmit=e=>{e.preventDefault();$('loginError').textContent='Firebase ยังไม่พร้อมใช้งาน กรุณารีเฟรชหน้า'}}
+</script></body></html>
